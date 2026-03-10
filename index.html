@@ -588,6 +588,23 @@
       .quote-wrap  { padding: 48px 28px; }
       .stats-grid  { grid-template-columns: repeat(2,1fr); }
     }
+    /* --- THE MASTER COLOR FIX --- */
+/* This forces all text elements that might be white to become black */
+.body-text, 
+.callout-box p, 
+.pillar-card p, 
+.timeline-item p, 
+.outcome-item p,
+.section-label,
+.meta-chip,
+.footer-note {
+    color: #000000 !important;
+}
+
+/* This fixes the specific section you mentioned: From Crisis to Sold-Out */
+.timeline-item {
+    color: #000000 !important;
+}
   </style>
 </head>
 <body>
