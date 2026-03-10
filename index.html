@@ -123,14 +123,14 @@
       display: flex;
       align-items: center;
       gap: 8px;
-      background: rgba(0, 0, 0, 0.72);
+      background: rgba(255,255,255,0.06);
       border: 1px solid rgba(0,0,0,0.1);
       padding: 10px 18px;
       border-radius: 100px;
       font-family: 'Archivo', sans-serif;
       font-size: 13px;
       font-weight: 600;
-      color: rgba(255,255,255,0.72);
+      color: #ffffff;
     }
 
     .meta-chip .dot {
@@ -229,7 +229,7 @@
 
     .body-text {
       font-family: 'Archivo', sans-serif;
-      font-size: 17px; color: rgba(0, 0, 0, 0.75);
+      font-size: 17px; color: rgba(0,0,0,0.7);
       line-height: 1.9; max-width: 740px;
     }
 
@@ -332,7 +332,7 @@
 
     .pillar-card p {
       font-family: 'Archivo', sans-serif;
-      font-size: 15.5px; color: rgba(0, 0, 0, 0.65); line-height: 1.85;
+      font-size: 15.5px; color: rgba(0,0,0,0.6); line-height: 1.85;
     }
 
     /* ══════════════════════════════════════════
@@ -440,7 +440,7 @@
 
     .timeline-item p {
       font-family: 'Archivo', sans-serif;
-      font-size: 15.5px; color: rgba(255,255,255,0.65);
+      font-size: 15.5px; color: rgba(0,0,0,0.6);
       line-height: 1.85; max-width: 640px;
     }
 
@@ -498,7 +498,7 @@
 
     .outcome-item {
       display: flex; gap: 18px; align-items: flex-start;
-      background: rgba(0, 0, 0, 0.72);
+      background: rgba(255,255,255,0.025);
       border: 1px solid var(--border); border-radius: 16px;
       padding: 26px 22px; transition: border-color 0.2s, background 0.2s;
     }
@@ -523,10 +523,10 @@
 
     .outcome-item p {
       font-family: 'Archivo', sans-serif;
-      font-size: 15px; color: rgba(255,255,255,0.72); line-height: 1.75;
+      font-size: 15px; color: #ffffff; line-height: 1.75;
     }
 
-    .outcome-item p strong { color: var(--black); font-weight: 700; }
+    .outcome-item p strong { color: #ffffff; font-weight: 700; }
 
     /* ══════════════════════════════════════════
        ABOUT
@@ -541,7 +541,7 @@
 
     .callout-box p {
       font-family: 'Archivo', sans-serif;
-      font-size: 16px; color: rgba(255,255,255,0.72); line-height: 1.85;
+      font-size: 16px; color: rgba(0,0,0,0.7); line-height: 1.85;
     }
 
     .callout-box p + p { margin-top: 16px; }
@@ -580,7 +580,7 @@
 
     .footer-note {
       font-family: 'Archivo', sans-serif;
-      font-size: 12px; color: rgba(0, 0, 0, 0.45); letter-spacing: 0.5px;
+      font-size: 12px; color: rgba(0,0,0,0.4); letter-spacing: 0.5px;
     }
 
     @media (max-width: 640px) {
@@ -588,23 +588,6 @@
       .quote-wrap  { padding: 48px 28px; }
       .stats-grid  { grid-template-columns: repeat(2,1fr); }
     }
-    /* --- THE MASTER COLOR FIX --- */
-/* This forces all text elements that might be white to become black */
-.body-text, 
-.callout-box p, 
-.pillar-card p, 
-.timeline-item p, 
-.outcome-item p,
-.section-label,
-.meta-chip,
-.footer-note {
-    color: #000000 !important;
-}
-
-/* This fixes the specific section you mentioned: From Crisis to Sold-Out */
-.timeline-item {
-    color: #000000 !important;
-}
   </style>
 </head>
 <body>
@@ -613,7 +596,7 @@
 <section class="hero">
   <div class="hero-inner">
     <div class="award-badge">&#9733;&nbsp; Hermes Creative Awards &nbsp;·&nbsp; Category 165C — Live or Hybrid Event</div>
-    <h1>Beyond the DM:<br/><span class="highlight">Scaling Authenticity</span><br/>at <span class="accent">Instagram Summit by Manychat IRL</span></h1>
+    <h1>Beyond the DM:<br/><span class="highlight">Scaling Authenticity</span><br/>at <span class="accent">Instagram Summit IRL</span></h1>
     <p class="hero-sub">How Kickstand's PR and media strategy drove a sold-out, industry-defining moment for Manychat.</p>
     <div class="hero-meta">
       <div class="meta-chip"><span class="dot"></span> September 2025</div>
@@ -640,7 +623,7 @@
   <h2 class="section-title">A Niche Brand Steps<br/><span class="o">onto the Main Stage</span></h2>
   <div class="body-text">
     <p>Manychat had earned deep loyalty in the creator economy as the go-to platform for DM automation. But with a $140M funding round behind it and a clear ambition to lead in AI-powered conversational commerce, the brand needed to break out of its niche. The Instagram Summit IRL was the event designed to do exactly that — bringing together 400+ creators, marketers, and brand owners for a one-day, invite-only experience in Los Angeles.</p>
-    <p>Kickstand served as Manychat's Agency of Record. For this event, our focus was driving media attendance, amplifying the executive narrative, and positioning Manychat not just as a tool for creators, but as the engine defining a new era of marketing.</p>
+    <p>Kickstand served as Manychat's Agency of Record. For this event, our focus was driving attendance, amplifying the executive narrative, and positioning Manychat not just as a tool for creators, but as the engine defining a new era of marketing.</p>
   </div>
   <div class="stats-grid">
     <div class="stat-card">
@@ -652,7 +635,7 @@
       <div class="stat-label">Capacity Hit</div>
     </div>
     <div class="stat-card">
-      <div class="stat-number cyan-num">7</div>
+      <div class="stat-number cyan-num">10+</div>
       <div class="stat-label">Media Placements</div>
     </div>
     <div class="stat-card">
@@ -756,7 +739,7 @@
 <!-- ════════════════════ STAT CALLOUT ════════════════════ -->
 <div class="section" style="padding-top: 0;">
   <div class="quote-wrap">
-    <p class="quote-text" style="font-size:clamp(1.1rem,2.5vw,1.4rem); line-height:1.7;">Kickstand generated <strong style="color:var(--magenta);">7 earned media placements</strong> in the weeks surrounding the event — securing coverage that positioned Manychat as the must-attend destination for creators, operators, and brand builders.</p>
+    <p class="quote-text" style="font-size:clamp(1.1rem,2.5vw,1.4rem); line-height:1.7;">Kickstand generated <strong style="color:var(--magenta);">10+ earned media placements</strong> in the weeks surrounding the event — securing coverage that positioned Manychat as the must-attend destination for creators, operators, and brand builders.</p>
     <div class="quote-attr">
       PR &amp; Media Impact
       <span>Instagram Summit IRL — Los Angeles, 2025</span>
